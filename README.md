@@ -1,4 +1,3 @@
-# FairHire-AI
 # FairHire AI 🛡️: Privacy-Preserving and Fair Resume Screening System
 
 ## 🔍 Overview
