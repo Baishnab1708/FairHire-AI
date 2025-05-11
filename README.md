@@ -19,21 +19,24 @@ The system performs:
 
 ---
 
-## 🗃️ Project Structure
-.
+## 🗃️ Project Structure  
+```text
+FairHire-AI/
 ├── data/
-│ ├── bias_patterns/
-│ └── resumes/
+│   ├── bias_patterns/          # Predefined bias-indicating patterns
+│   └── resumes/                # Original and test resumes
 ├── models/
-│ ├── adversarial.py
-│ ├── primary_ai.py
-│ └── unlearning.py
+│   ├── adversarial.py          # Bias detection logic
+│   ├── primary_ai.py           # Resume ranking model
+│   └── unlearning.py           # Machine unlearning implementation
 ├── utils/
-│ ├── data_loader.py
-│ └── evaluator.py
-├── config.py
-├── main.py
-└── Report.doc
+│   ├── data_loader.py          # Data loading and preprocessing
+│   └── evaluator.py            # Fairness and performance evaluation
+├── config.py                   # Configuration and constants
+├── main.py                     # Entry point for running the pipeline
+└── Report.doc                  # Project report/documentation 
+
+```
 
 
 ---
